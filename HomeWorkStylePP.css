@@ -1,0 +1,195 @@
+html {
+    font-family: "Times New Roman", Arial, sans-serif;  /* makes the text Times new roman */
+    background-color: #b8bdc1;                          /* makes the background a little grey */
+}
+
+body {
+    text-align: center; /* centers everything*/
+}
+
+ul {
+  padding: 0;               /*pushes the text together more */
+  margin: 0;                /*gets rid ot the tiny space on the top */
+  overflow: hidden;         /*provides the bar for the navigation*/
+  background-color: #333;   /* adds the darker color*/
+}
+
+li {
+  float: left;     /* moves text to the left */
+  display: inline; /* gets rid of those wierd dots*/
+}
+
+li a {
+  display: block;         /*displays the navigation as a block*/
+  color: white;           /* makes the text white */
+  padding: 14px 16px;     /* spaces out the text*/
+  text-decoration: none;  /* gets rid of the underlined parts */
+}
+
+
+li a:hover {
+  transition: background-color 0.5s ease; /* smooth transition of colors */
+  background-color: #b8bdc1;              /* Change the link color on hover */
+}
+table {
+    padding: 20px 100px 100px 100px;  /*adds padding round the table*/
+    border-spacing: 1rem;             /*spaces each cell of the table*/
+}
+
+td {
+    width: 30%;               /*scales the width of the cells*/
+    height: 30rem;            /*scales the height of the cells*/
+    background-color: #333;   /* adds the darker color*/
+}
+
+td img {
+  /*scales the image in each cell */
+    width: 100%; 
+    height: auto;
+}
+
+td  h {
+    font-weight: bold;      /* boldens the header of each cell*/
+    font-size: 1.4rem;      /* changes the font size of the header*/
+    /*margin-bottom: 0.5rem;*/
+}
+
+td p {
+    font-size: 1.1rem;    /* changes the font size of the paragraphs in each cell*/
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/*puts the arrow on the right to scroll through images*/
+.next {
+  right: 0;
+}
+/*puts the arrow on the left to scroll through images*/
+.prev{
+  left: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: #b8bdc1;
+}
+
+/* adds a number tex at the top of the box*/
+.numbertext {
+  color: #b8bdc1;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+ img {
+  width: 50%; 
+  height: auto;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+

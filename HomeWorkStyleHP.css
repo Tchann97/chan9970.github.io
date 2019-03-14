@@ -1,0 +1,46 @@
+html {
+    font-family: "Times New Roman", Arial, sans-serif;  /* makes the text Times new roman */
+    background-color: #b8bdc1;                          /* makes the background a little grey */
+}
+
+body {
+    text-align: center; /* centers everything*/
+}
+img {
+  /* scales the image */
+	width:  30%;
+	height: auto%;
+}
+
+p {
+  /* adds padding to the paragraph */
+  padding-right: 200px;
+  padding-left: 200px;
+  font-size: 1.1rem;
+}
+
+ul {
+  padding: 0;               /*pushes the text together more */
+  margin: 0;                /*gets rid ot the tiny space on the top */
+  overflow: hidden;         /*provides the bar for the navigation*/
+  background-color: #333;   /* adds the darker color*/
+}
+
+li {
+  float: left;     /* moves text to the left */
+  display: inline; /* gets rid of those wierd dots*/
+}
+
+li a {
+  display: block;         /*displays the navigation as a block*/
+  color: white;           /* makes the text white */
+  padding: 14px 16px;     /* spaces out the text*/
+  text-decoration: none;  /* gets rid of the underlined parts */
+}
+
+
+li a:hover {
+  transition: background-color 0.5s ease; /* smooth transition of colors */
+  background-color: #b8bdc1;  /* Change the link color on hover */
+
+}
