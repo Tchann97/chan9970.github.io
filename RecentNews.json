@@ -1,12 +1,9 @@
 {
-  "RecentNews": [
-    {"item":"Courses Completed", "list":[
-    	"Computer Archirecture"
-    	, "Data Structures Using Object-Oriented Design"
-    	, "Object-Oriented Design and Programming" 
-    	,"Introduction to Programming and Problem and Problem Solving"
-    	,"Advanced Statistical Software"
-    	]},
-  ]
+  "RecentNews":[
+  {"course":"Computer Archirecture"}, 
+  {"course":"Data Structures Using Object-Oriented Design"}, 
+  {"course":"Introduction to Programming and Problem and Problem Solving"},
+  {"course":"Advanced Statistical Software"}
+]
 
 }
