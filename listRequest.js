@@ -5,12 +5,12 @@ function start() {
 	    var list = JSON.parse(req1.response);
 	    var classList = "";
 	    var i;
-	    for(i =0; i < RecentNews.length; i++)
+	    for(i in list.RecentNews)
 	    {
-	    	classList = classList + list.RecentNews[i].course + " ";
+	    	classList = classList + list.recentNews[i].course;
 	    }
 	  }
-		classList = document.getElementById("results").innerHTML;
+		document.getElementById("results").innerHTML = classList;
 	};
 	req.open("GET", "https://chan9970.github.io/RecentNews.json", true);
 	req.send();
