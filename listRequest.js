@@ -10,7 +10,7 @@ function start() {
 	    	classList = classList + list.RecentNews[i].course + " ";
 	    }
 	  }
-		result = document.getElementById("results");
+		classList = document.getElementById("results").innerHTML;
 	};
 	req.open("GET", "https://chan9970.github.io/RecentNews.json", true);
 	req.send();
